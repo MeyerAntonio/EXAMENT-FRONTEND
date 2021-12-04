@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7% 0;
+}
+
+header ul {
+    display : flex;
+}
+header li {
+    margin : 5px;
+}
+
+h1 {
+    Font-style: Bold;
+    Align: Left;
+    Vertical-align: Center;
+    Letter-spacing: -3.5%;
+    Width: 439px;
+    Font-family: Be Vietnam
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    display : flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.Txt1 {
+    display: flex;
+    align-items: space-around;
+    justify-content: space-between;
+    color: #232C50;
+
+}
+
+footer {
+    display : flex;
+    align-items: justify;
+    justify-content: space-around;
+}
+
+.Orange {
+    width: 100%;
+    height: 225px;
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+.Black {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    color: white;
+    background-color: #1E1E26;
+}
+
+.button2 {
+    background-color: white;
+    color: orange;
+}
+
+button {
+     background-color: #F3603B;
+     color:white;
+     align-items: center;
+     display: flex;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.face1 >img,
+.face2 >img,
+.face3 >img, {
+    width: 70px;
+    height: 70px;
+}
+
+.face1, 
+.face2,
+.face3,
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cajaboton {
+align-content: justify;
+}
+.Faterfor p {
+    text-align: center;
+}
+
+@media (max-width:768) {
+    .menu {
+        visibility: visible;
+    }
+}
